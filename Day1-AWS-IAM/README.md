@@ -10,17 +10,17 @@ In the AWS Management Console, you may notice that the label ``Global`` appears 
 
 To add a new user, simply access the Users section from the left navigation bar and then select the option to Add users and then add all the details
 
-![txt](images/02.png)
+![txt](./IAM/images/02.png)
 
 ### IAM Policies
 
 IAM Policies are formal documents that specify one or more permissions. As an example, IAM offers pre-built policy templates that can be assigned to users and groups.
 
-![txt](images/03.png)
+![txt](./IAM/images/03.png)
 
 It is possible to devise a personalized policy either by utilizing a policy generator or by creating one from scratch.
 
-![txt](images/04.png)
+![txt](./IAM/images/04.png)
 
 More than one policy can be attached to a user or group at the same time
 
@@ -103,15 +103,15 @@ Run `terraform fmt` to rewrite Terraform configuration files to a canonical form
 
 Run `terraform validate` to validate the configuration files in the directory.
 
-![txt](images/05.png)
+![txt](./IAM/images/05.png)
 
 Run `terraform plan` and then `terraform apply --auto-approve`
 
 After running `terraform apply --auto-approve`, we get an output showing that the users have been created.
 
-![txt](images/06.png)
+![txt](./IAM/images/06.png)
 
 Navigating to the AWS console, under IAM, we notice the users were created succesfully.
 
-![txt](images/07.png)
+![txt](./IAM/images/07.png)
 
