@@ -115,3 +115,7 @@ Navigating to the AWS console, under IAM, we notice the users were created succe
 
 ![txt](./IAM/images/07.png)
 
+Run `terraform destroy` to delete everything.
+
+![txt](./IAM/images/08.png)
+
