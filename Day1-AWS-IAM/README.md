@@ -6,7 +6,7 @@
 
 In the AWS Management Console, you may notice that the label ``Global`` appears at the top right-hand side of the screen. This indicates that when you create a user, group, or role in this console, it will be applied globally to all regions in your AWS account.
 
-![txt](images/01.png)
+![txt](./IAM/images/01.png)
 
 To add a new user, simply access the Users section from the left navigation bar and then select the option to Add users and then add all the details
 
