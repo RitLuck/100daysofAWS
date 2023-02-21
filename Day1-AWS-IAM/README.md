@@ -40,6 +40,8 @@ resource "aws_iam_user" "demouser" {
 #### Creating multiple IAM users:
 By utilizing the `count` meta-argument in Terraform, it is possible to replicate a resource as many times as specified. In the provided example, the resource is duplicated three times
 
+ - `aws_iam_user` - This resource is used to create an AWS IAM user.
+
 ```
 resource "aws_iam_user" "demo" {
   count = 3
@@ -59,10 +61,15 @@ However, if our users require distinct names that do not begin with the same cha
 
 In the code provided below, the length function will give a result of 3, indicating that there are three users in the username list. The element function will return the individual name from the username list that corresponds to the unique index number specified by the count argument ([0]=Luffy, [1]=Naruto, [2]=ichigo).
 
+- `name`    - This is a mandatory argument to define user name as part of resource creation.
+- `count`   - Variable to take the length of the user list and save it.
+- `element` - It's an intrinsic function of terraform to retrieve a single element from a list.
+
+
 ```
 resource "aws_iam_user" "demo" {
-  count = "${length(var.username)}"
-  name = "${element(var.username,count.index )}"
+  count = length(var.username)
+  name =  element(var.username,count.index)
 }
 ```
 
