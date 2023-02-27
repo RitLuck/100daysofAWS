@@ -1,6 +1,8 @@
 # AWS Serverless
 
 - AWS serverless is an architecture for building and running applications in the cloud without having to manage or provision servers.
+- The serverless architecture allows you to focus on writing code without worrying about underlying infrastructure or scaling issues.
+- With serverless, you only pay for the resources that your application consumes, and you are charged based on the actual usage of those resources.
 - Instead, serverless computing relies on event-driven computing, which means that applications respond to events such as a file upload, a database update, or an HTTP request. AWS offers a number of serverless services, including AWS Lambda, Amazon API Gateway, AWS Step Functions, Amazon DynamoDB, and Amazon S3.
 
 ## AWS Lambda
