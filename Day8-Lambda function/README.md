@@ -60,9 +60,9 @@ In this blog post, we'll explore how to create and test a Lambda function on AWS
 ## Create a Test Event and Manually Invoke the Function Using the Test Event
 1. In the dropdown next to Test at the top of the Lambda console, select `Configure test events`.
 2. In the dialog, select `Create new test event`.
-3. Select the `Hello World` event template
+3. Select the `Hello World` event template.
 4. Replace the current code there with the JSon code below, and then click Create.
-    ```
+    ```   
     {
     "message": "Congrats! Your first successful Lambda function! Oh....and 'Hello World!' ",
     "notmessage": "If this shows, it is broken!"
