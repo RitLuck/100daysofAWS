@@ -236,7 +236,7 @@ Counter: 3
 
 ```
 ➜  App docker run -it --rm --entrypoint "bash" counter-image
-root@e1a7ef60af06:/App# dotnet DotNet.Docker.dll 6
+root@e1a7ef60af06:/App# dotnet DotNet.Docker.dll 6 
 Counter: 1
 Counter: 2
 Counter: 3
