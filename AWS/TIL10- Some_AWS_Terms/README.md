@@ -1,33 +1,54 @@
-### **AWS Cost Anomaly Detection**
+# AWS services and features
 
-AWS Cost Anomaly Detection is a service offered by Amazon Web Services (AWS) that uses **machine learning to identify and alert users to unexpected or unusual spending patterns** in their AWS account. This can help users to quickly identify and investigate potential cost overruns or other anomalies, and take action to reduce costs or optimize resource usage.
 
-### **Amazon GuardDuty**
-Amazon GuardDuty is a threat detection service that uses machine learning to analyze and identify potential security threats in real-time across an AWS account. GuardDuty can detect activities such as unusual API calls, unauthorized access attempts, and compromised instances, and can provide detailed findings and insights to help customers better understand the nature and severity of the threats. 
+## **Analytics:**
+- **Amazon Athena**
 
-### **AWS WAF**
-AWS WAF, or Amazon Web Services Web Application Firewall, is a cloud-based firewall service that helps protect web applications from common web exploits that could compromise their security. WAF provides customizable rules that enable customers to block common attack patterns like SQL injection or cross-site scripting (XSS) attacks. Customers can use WAF to control access to their web applications by allowing or blocking traffic based on the IP address of the source, country of origin, or specific HTTP headers.
+Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using SQL queries. Athena is serverless and automatically scales queries to handle large amounts of data. With Athena, you can easily query data stored in Amazon S3 without the need for complex ETL processes.
 
-### **AWS Shield**
-AWS Shield is a managed DDoS protection service that helps safeguard web applications running on AWS from volumetric, protocol-based, and application-layer DDoS attacks by providing always-on detection and mitigation against common attacks, and additional protection against more sophisticated attacks through the AWS Shield Advanced service.
 
-### **Amazon Inspector**
-Amazon Inspector is an automated security assessment service that helps customers improve the security and compliance of their applications deployed on Amazon Web Services by identifying potential security issues and vulnerabilities.
+- **Amazon Kinesis**
 
-### **Amazon Connect**
-Amazon Connect is a cloud-based contact center service provided by Amazon Web Services that allows businesses to set up a virtual contact center with features such as automatic call distribution, IVR, speech recognition, text-to-speech, and chat. It is easy to configure and use, scalable, and charges based on usage. Overall, Amazon Connect provides a cost-effective and flexible solution for businesses looking to establish a contact center without the need for on-premises hardware or software.
+Amazon Kinesis is a real-time data streaming service that allows you to ingest and process large volumes of data in real-time. Kinesis can be used to collect and analyze data from sources such as social media, clickstreams, IoT devices, and log data. Kinesis can be used with other AWS services such as Lambda and EC2 to build real-time data processing and analytics applications.
 
-### **Amazon Lightsail**
-Amazon Lightsail is a simplified, easy-to-use cloud service that provides virtual private servers (VPS) with a pre-configured operating system, SSD-based storage, data transfer, DNS management, and other necessary tools to run web applications or websites. It is a user-friendly and cost-effective option for developers, small businesses, and startups to host and manage their applications without worrying about the complexities of infrastructure setup and maintenance. With Lightsail, users can quickly create, launch, and manage their VPS instances, scale their resources up or down according to their needs, and pay only for the resources they consume.
+- **Amazon QuickSight**
 
-### **AWS Global Accelerator**
-AWS Global Accelerator is a service provided by Amazon Web Services that improves the availability and performance of applications running across multiple AWS regions. It allows customers to route traffic to optimal AWS endpoints across different regions, improving the user experience by reducing latency and increasing availability. Global Accelerator uses AWS's own global network backbone to optimize the routing of traffic, improving performance by reducing the number of hops between the client and the application. The service also includes health checks and traffic policies to enable automated failover, ensuring that traffic is automatically routed to healthy endpoints in the event of an outage or performance degradation. AWS Global Accelerator is a useful tool for customers that need to deliver low-latency and highly available applications on a global scale.
+Amazon QuickSight is a cloud-based business intelligence and data visualization service that allows you to easily create and publish interactive dashboards, reports, and visualizations. QuickSight integrates with a wide range of data sources, including Amazon S3, RDS, and Redshift, as well as third-party data sources. QuickSight uses machine learning to automatically suggest the best visualizations for your data and can be accessed through a web browser or a mobile app.
 
-## **Amazon S3 Glacier**    
-Amazon S3 Glacier is a cloud-based storage service offered by Amazon Web Services (AWS) designed for long-term data archiving and backup. It is a low-cost and secure option for storing data that needs to be retained for regulatory, compliance, or business reasons but is not accessed frequently. S3 Glacier offers three retrieval options, each with a different cost and retrieval time, and provides features such as encryption, access controls, and versioning to ensure the security and management of stored data. It is an ideal solution for organizations with large amounts of infrequently accessed data that need a reliable and cost-effective backup and recovery solution.
+## **Application Integration:**
+- **Amazon Simple Notification Service (Amazon SNS)**.
 
-## **Amazon ElastiCache**
-Amazon ElastiCache is a managed in-memory data store service provided by Amazon Web Services (AWS). It is designed to enhance the performance and scalability of web applications by providing a high-performance, scalable, and fully-managed in-memory cache environment. ElastiCache supports two open-source caching engines: Redis and Memcached, which are widely used for caching frequently accessed data and improving application performance. ElastiCache enables businesses to easily deploy, operate, and scale their cache environments, reducing the complexity and operational overhead of managing an in-memory cache. It integrates with other AWS services such as Amazon EC2, Amazon RDS, and Amazon ElastiCache for Redis, and supports features such as automatic failover, backup and restore, and security controls to ensure data reliability, availability, and security.
+Amazon SNS is a fully managed messaging service that enables the distribution of messages to a large number of subscribers through a publish/subscribe model. SNS supports both HTTP/S and email-based subscription protocols and can be used to send notifications, alerts, and other messages to a large number of recipients.
+
+- **Amazon Simple Queue Service (Amazon SQS)**
+
+Amazon SQS is a fully managed message queuing service that enables decoupling of components in a distributed system. SQS allows you to send, store, and receive messages between software components, which helps to decouple the components and allows them to operate independently.
+
+## **Compute and Serverless:**
+- **AWS Batch**
+
+AWS Batch is a fully managed batch processing service that enables developers, scientists, and engineers to easily and efficiently run batch computing workloads of any scale on AWS.
+
+- **Amazon EC2 (Elastic Compute Cloud)**
+
+Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+
+- **AWS Elastic Beanstalk**
+
+AWS Elastic Beanstalk is a fully managed service for deploying and scaling web applications and services. It provides a platform to deploy applications using various programming languages and technologies, including Java, .NET, Node.js, PHP, Python, Ruby, and Docker.
+
+- **AWS Lambda**
+
+AWS Lambda is a serverless computing service that lets users run code without provisioning or managing servers. Lambda automatically scales and runs the code in response to incoming requests or events.
+
+- **Amazon Lightsail**
+
+Amazon Lightsail is a simplified, low-cost, and easy-to-use virtual private server (VPS) service that provides developers with the tools to create web applications and manage their cloud-based infrastructure.
+
+- **Amazon WorkSpaces**
+
+Amazon WorkSpaces is a fully managed, secure desktop computing service that runs on the AWS Cloud. It allows users to access their desktops from anywhere using any device, while maintaining the security and control of corporate data.
+
 
 
 ## **Containers:**
