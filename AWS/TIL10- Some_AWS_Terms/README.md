@@ -13,3 +13,14 @@ AWS Shield is a managed DDoS protection service that helps safeguard web applica
 
 ### **Amazon Inspector**
 Amazon Inspector is an automated security assessment service that helps customers improve the security and compliance of their applications deployed on Amazon Web Services by identifying potential security issues and vulnerabilities.
+
+### **Amazon Connect**
+Amazon Connect is a cloud-based contact center service provided by Amazon Web Services that allows businesses to set up a virtual contact center with features such as automatic call distribution, IVR, speech recognition, text-to-speech, and chat. It is easy to configure and use, scalable, and charges based on usage. Overall, Amazon Connect provides a cost-effective and flexible solution for businesses looking to establish a contact center without the need for on-premises hardware or software.
+
+### **Amazon Lightsail**
+Amazon Lightsail is a simplified, easy-to-use cloud service that provides virtual private servers (VPS) with a pre-configured operating system, SSD-based storage, data transfer, DNS management, and other necessary tools to run web applications or websites. It is a user-friendly and cost-effective option for developers, small businesses, and startups to host and manage their applications without worrying about the complexities of infrastructure setup and maintenance. With Lightsail, users can quickly create, launch, and manage their VPS instances, scale their resources up or down according to their needs, and pay only for the resources they consume.
+
+### **AWS Global Accelerator**
+AWS Global Accelerator is a service provided by Amazon Web Services that improves the availability and performance of applications running across multiple AWS regions. It allows customers to route traffic to optimal AWS endpoints across different regions, improving the user experience by reducing latency and increasing availability. Global Accelerator uses AWS's own global network backbone to optimize the routing of traffic, improving performance by reducing the number of hops between the client and the application. The service also includes health checks and traffic policies to enable automated failover, ensuring that traffic is automatically routed to healthy endpoints in the event of an outage or performance degradation. AWS Global Accelerator is a useful tool for customers that need to deliver low-latency and highly available applications on a global scale.
+
+## Test
