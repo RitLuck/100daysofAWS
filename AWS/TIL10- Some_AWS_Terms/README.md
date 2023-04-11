@@ -175,7 +175,109 @@ AWS Systems Manager Parameter Store is a service that enables users to store and
 AWS Trusted Advisor is a service that provides recommendations to optimize AWS infrastructure for security, cost, performance, and fault tolerance. It enables users to optimize their infrastructure and reduce costs by identifying unused resources, underutilized resources, and opportunities to improve security and performance.
 
 
-## **Billing and Pricing**
+## **Networking and Content Delivery:**
+- **Amazon API Gateway**
+
+Amazon API Gateway is a fully managed service that makes it easy to create, publish, and manage APIs. API Gateway can be used to build APIs for applications running on Amazon EC2, AWS Lambda, or any other web application. It provides features such as security, monitoring, and throttling to ensure that your APIs are secure and scalable.
+
+- **Amazon CloudFront**
+
+Amazon CloudFront is a content delivery network (CDN) that securely delivers data, videos, applications, and APIs to customers worldwide with low latency and high transfer speeds. CloudFront can be used to distribute content from Amazon S3, EC2, or any other web server.
+
+- **AWS Direct Connect**
+
+AWS Direct Connect is a dedicated network connection between your data center or on-premises infrastructure and AWS. Direct Connect provides a secure, private connection to the AWS cloud, which can be used to transfer data, run applications, and access services. Direct Connect can help reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections.
+
+- **Amazon Route 53**
+
+Amazon Route 53 is a highly available and scalable cloud DNS service. Route 53 can be used to route internet traffic to your AWS resources, such as EC2 instances, S3 buckets, or CloudFront distributions. Route 53 also provides health checking and failover capabilities to ensure that your resources are always available.
+
+- **Amazon VPC**
+
+Amazon VPC (Virtual Private Cloud) is a service that enables you to launch Amazon Web Services resources into a virtual network that you define. VPC provides you with control over your network settings, including IP address range, subnets, and routing tables. It also provides advanced security features such as security groups and network access control lists to help you secure your resources.
+
+
+## **Security, Identity, and Compliance:**
+- **AWS Artifact**
+
+AWS Artifact is a portal that provides access to AWS compliance reports, such as the AWS Service Organization Control (SOC) reports and the Payment Card Industry Data Security Standard (PCI DSS) reports.
+
+- **AWS Certificate Manager (ACM)**
+
+AWS Certificate Manager (ACM) is a service that makes it easy to provision, manage, and deploy SSL/TLS certificates for use with AWS services and your internal resources.
+
+- **AWS CloudHSM**
+
+AWS CloudHSM is a hardware security module (HSM) that provides secure key storage and cryptographic operations. CloudHSM can be used to protect sensitive data such as passwords, encryption keys, and digital certificates.
+
+- **Amazon Cognito**
+
+Amazon Cognito is a service that provides user sign-up, sign-in, and access control. Cognito can be used to add user authentication to web and mobile applications.
+
+- **Amazon Detective**
+
+Amazon Detective is a service that helps to analyze, investigate, and identify the root cause of potential security issues or suspicious activities across AWS resources.
+
+- **Amazon GuardDuty**
+
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious or unauthorized activities.
+
+- **AWS Identity and Access Management (IAM)**
+
+AWS Identity and Access Management (IAM) is a service that enables you to manage access to AWS resources securely. IAM allows you to create and manage users, groups, and permissions to control access to AWS resources.
+
+- **Amazon Inspector**
+
+Amazon Inspector is an automated security assessment service that helps to improve the security and compliance of applications deployed on AWS. Inspector can be used to identify security vulnerabilities and compliance issues in your applications.
+
+- **AWS License Manager**
+
+AWS License Manager is a service that helps you to manage software licenses that are used with AWS resources.
+
+- **Amazon Macie**
+
+Amazon Macie is a service that uses machine learning to discover, classify, and protect sensitive data in your AWS environment. Macie can be used to identify and protect data such as personally identifiable information (PII) and intellectual property.
+
+- **AWS Shield**
+
+AWS Shield is a managed DDoS (Distributed Denial of Service) protection service that safeguards web applications running on AWS.
+
+- **AWS WAF**
+
+AWS WAF (Web Application Firewall) is a web application firewall that helps to protect web applications from common web exploits, such as SQL injection and cross-site scripting (XSS). WAF allows you to create custom rules to block specific traffic patterns and provides real-time metrics and logging for your web applications.
+
+
+## **Storage:**
+- **AWS Backup**
+
+AWS Backup is an AWS service that provides a centralized and automated backup solution for data stored in AWS services. It simplifies the process of creating, managing, and restoring backups, enabling users to easily backup their data and meet compliance requirements.
+
+- **Amazon Elastic Block Store (Amazon EBS)**
+
+Amazon Elastic Block Store (Amazon EBS) is a block storage service that provides persistent storage volumes for use with Amazon EC2 instances. AWS Backup can create point-in-time backups of Amazon EBS volumes, allowing for data recovery in the event of accidental deletion or data loss.
+
+- **Amazon Elastic File System (Amazon EFS)**
+
+Amazon Elastic File System (Amazon EFS) is a fully-managed file storage service that makes it easy to set up and scale shared file storage for use with Amazon EC2 instances. AWS Backup can back up Amazon EFS file systems, providing a reliable and scalable solution for data protection and recovery.
+
+- **Amazon s3**
+
+Amazon S3 is a scalable and secure object storage service that can store and retrieve any amount of data from anywhere on the web. AWS Backup can create and manage backups of Amazon S3 objects, simplifying the process of data protection and recovery.
+
+- **Amazon S3 Glacier**
+
+Amazon S3 Glacier is a low-cost storage service designed for data archiving and long-term backup. AWS Backup provides a seamless way to backup data to Amazon S3 Glacier, allowing users to store and retrieve large amounts of data at a low cost.
+
+- **AWS Snowball Edge**
+
+AWS Snowball Edge is a petabyte-scale data transfer and edge computing device that can be used to collect, process, and transfer data between on-premises locations and AWS. AWS Backup can be used with AWS Snowball Edge to create backups of on-premises data and migrate it to the cloud.
+
+- **AWS Storage Gateway**
+
+AWS Storage Gateway is a hybrid storage service that enables on-premises applications to seamlessly use AWS storage services. AWS Backup supports the backup and recovery of AWS Storage Gateway volumes, making it easy to protect and restore critical data stored in the cloud.
+
+
+# **Billing and Pricing**
 - **Reserved Instances**
 
 Reserved Instances are a pricing option for Amazon Elastic Compute Cloud (Amazon EC2) that allows users to reserve capacity for their Amazon EC2 instances in exchange for a discounted hourly rate. Reserved Instances require a one-time upfront payment and a commitment to use the instance for a specified term, either 1 or 3 years.
