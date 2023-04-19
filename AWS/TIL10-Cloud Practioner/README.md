@@ -268,7 +268,7 @@ Amazon S3 is a scalable and secure object storage service that can store and ret
 
 Amazon S3 Glacier is a low-cost storage service designed for data archiving and long-term backup. AWS Backup provides a seamless way to backup data to Amazon S3 Glacier, allowing users to store and retrieve large amounts of data at a low cost.
 
-- **AWS Snowball Edge**
+    - **AWS Snowball Edge**
 
 AWS Snowball Edge is a petabyte-scale data transfer and edge computing device that can be used to collect, process, and transfer data between on-premises locations and AWS. AWS Backup can be used with AWS Snowball Edge to create backups of on-premises data and migrate it to the cloud.
 
@@ -293,4 +293,8 @@ Spot Instances are an Amazon EC2 pricing option that allows users to bid on unus
 - **Dedicated Instances**
 
 Dedicated Instances are Amazon EC2 instances that run on hardware that is dedicated to a single customer. They provide similar benefits to Dedicated Hosts, such as the ability to use existing server-bound software licenses, but with more flexibility to scale up or down as needed.
+
+
+
+
 
