@@ -9,4 +9,7 @@
 - git config: Set or get configuration
 - git log: Show history of project commits
 - git branch -c: Create a branch
-git checkout: Check out (switch to) a branch
+- git checkout: Check out (switch to) a branch
+- git stash: Stash changes from working directory
+- git stash list: List stashes
+- git stash pop: Apply stashed changes to working directory
